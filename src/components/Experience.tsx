@@ -100,7 +100,7 @@ const Experience: React.FC = () => {
           </p>
         </motion.div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="lg:max-w-4xl mx-auto">
           {experiences.map((experience, index) => (
             <motion.div
               key={experience.id}
