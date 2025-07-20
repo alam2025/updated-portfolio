@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl mt-32 md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
+            <h1 className="text-3xl mt-32 md:text-7xl font-bold text-gray-900 dark:text-white mb-6">
               I'm{" "}
               <span className="text-blue-600 dark:text-blue-400">
                 Alam Hossain
@@ -77,7 +77,7 @@ const Hero: React.FC = () => {
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+            <p className="text-base md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
               Crafting scalable and robust web applications with{" "}
               <span className="text-blue-600 dark:text-blue-400 font-semibold">
                 2+ years

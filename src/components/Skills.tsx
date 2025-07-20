@@ -149,10 +149,10 @@ const Skills: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Technical Skills
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-base lg:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             A comprehensive overview of my technical expertise across the full
             development stack
           </p>

@@ -91,10 +91,10 @@ const Experience: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             Professional Experience
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+          <p className="text-base lg:text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             2+ years of hands-on experience delivering scalable solutions and
             solving complex challenges
           </p>
@@ -112,17 +112,17 @@ const Experience: React.FC = () => {
             >
               {/* Timeline Line */}
               {index < experiences.length - 1 && (
-                <div className="absolute left-8 top-24 w-0.5 h-32 bg-gradient-to-b from-blue-600 to-purple-600" />
+                <div className="absolute hidden md:block left-8 top-24 w-0.5 h-32 bg-gradient-to-b from-blue-600 to-purple-600" />
               )}
 
-              <div className="flex items-start space-x-6">
+              <div className="flex flex-col md:flex-row items-center  md:items-start md:space-x-6">
                 {/* Timeline Icon */}
                 <div className="flex-shrink-0 w-16 h-16 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
                   <Briefcase className="h-8 w-8 text-white" />
                 </div>
 
                 {/* Content */}
-                <div className="flex-1 bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="flex-1 mt-5 md:mt-auto bg-white dark:bg-gray-700 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                     <div>
                       <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-1">
